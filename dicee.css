@@ -1,0 +1,12 @@
+body{
+    background-color: palegreen;
+}
+h1{
+    font-size: 8rem;
+    color:darkcyan;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    color:lightcoral;
+    font-family: cursive;
+}

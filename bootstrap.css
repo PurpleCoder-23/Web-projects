@@ -1,0 +1,157 @@
+ body{
+    font-family:Montserrat;
+}
+#title {
+    background-color:#ff4c68;
+    color: #fff;
+
+
+}
+p {
+    font-family: cursive;
+    color: grey;
+}
+.container-fluid{
+    padding:3% 15%;
+}
+h1 {
+    font-family:"Montserrat-Black";
+    font-size:3rem;
+    line-height: 1.5;
+    
+     
+
+}
+h2{
+    font-family:"Montserrat-bold";
+    font-size: 3rem;
+    line-height:1.5 ;
+}
+h3{
+    font-family:Montserrat-bold ;
+    
+}
+/* Navigation bar */
+.navbar{
+    padding-bottom:4rem;
+}
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.nav-item{
+    padding-left: 4rem;
+}
+.nav-link{
+    font-family:montserrat-light;
+    font-size: 1.5rem;
+}
+/* Download buttons */
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+/* Title image */
+.title-img{
+    width: 40%;
+    border-radius: 12px;
+    
+}
+
+
+
+/* Features section */
+#features{
+    padding:7% 11%;
+}
+.feature-box{
+    text-align:center;
+
+    padding:8%;
+    
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+
+
+/* Testimonial section */
+#testimonials{
+    
+    text-align:center;
+    background-color: #ef8172;
+    color: aliceblue;
+}
+ .testimonial-img{ 
+    border-radius: 80%;
+    margin:20px;
+}
+ 
+ .testimonial-imgone{
+    width: 25%;
+    border-radius:40%;
+    margin:20px;
+
+ }
+ .testimonial-imgtwo{
+    width:30% ;
+    border-radius:80% ;
+    margin:20px ;
+ }
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+h4{
+    font-family: "Montserrat bold";
+    color: rgba(204, 20, 20, 0.534);
+    font-size:2rem;
+}
+
+/* calltoaction section */
+
+#calltoaction{
+    color:#fff;
+    background-color: #ff4c68;
+    padding:7% 15%;
+    line-height:1.5;
+    text-align: center;
+
+    
+}
+
+
+
+/* Footer */
+#footer{
+    background-color: grey;
+    text-align: center;
+text-size-adjust:bold ;
+}
+
+.social-icon{
+    margin: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+@Media(max-width:1028px){
+    #title{text-align: center;}
+}
